@@ -1,0 +1,12 @@
+.sections-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.sections-nav ul li {
+  &, span, i, a {
+    font-family: $sans-serif;
+    font-size: 14px;
+  }
+  padding: 5px;
+}
